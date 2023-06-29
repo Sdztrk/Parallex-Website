@@ -51,7 +51,7 @@
 }
 
 
-.fullstack{
+.fullstacktext{
     background-color: #F1F1F1;
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -60,10 +60,10 @@
     border: 5px solid black;
     height: 25vh;
 }
-.fullstack>p ,.awstext>p, .datatext>p, .whytext>p{
+.fullstacktext>p ,.awstext>p, .datatext>p, .whytext>p{
     padding: 20px 100px 20px;
 }
-.fullstack>h1,.awstext>h1, .datatext>h1,.whytext>h1 {
+.fullstacktext>h1,.awstext>h1, .datatext>h1,.whytext>h1 {
 padding-top: 20px;
 }
 
@@ -267,6 +267,10 @@ padding-top: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
     }
+    .fullstacktext>p ,.awstext>p, .datatext>p, .whytext>p{
+        padding: 20px 10px 20px;
+        font-size: x-small;
+    }
 }
 @media screen and (max-width: 480px) {
     .bg1, .bg2, .bg3, .bg4, .bg5{
@@ -304,8 +308,9 @@ padding-top: 20px;
         letter-spacing: 0px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
+        overflow: auto;
     }
-    .fullstack, .aws, .data, .why{
+    .fullstacktext, .aws, .data, .why{
         background-color: #F1F1F1;
         text-align: center;
         font-family: 'Lato', sans-serif;
@@ -314,10 +319,11 @@ padding-top: 20px;
         border: 5px solid black;
         height: 25vh;
     }
-    .fullstack>p ,.awstext>p, .datatext>p, .whytext>p{
+    .fullstacktext>p ,.awstext>p, .datatext>p, .whytext>p{
         padding: 20px 10px 20px;
+        overflow: auto;
     }
-    .fullstack>h1,.awstext>h1, .datatext>h1,.whytext>h1 {
+    .fullstacktext >h1,.awstext>h1, .datatext>h1,.whytext>h1 {
     padding-top: 20px;
     }
     .bg1, .bg2, .bg3, .bg4, .bg5{
