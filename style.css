@@ -229,3 +229,102 @@ padding-top: 20px;
     letter-spacing: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+    .bg1, .bg2, .bg3, .bg4, .bg5{
+        background-image: url(./img/bg1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.8;
+    
+    }
+    .logo1, .logo2, .logo3, .logo4, .logo5{
+        font-size: 50px;
+        width: 25vw;
+        height:13vh ;
+        color: white;
+        text-justify:center;
+        outline-width: 8px;
+        outline-style: solid;
+        outline: 0.5rem inset purple;
+        outline-offset: 10px;
+        background-color: #4C4C4C;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1>p, .logo2>p, .logo3>p, .logo4>p, .logo5>p{
+        letter-spacing: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+}
+@media screen and (max-width: 480px) {
+    .bg1, .bg2, .bg3, .bg4, .bg5{
+        background-image: url(./img/bg1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.8;
+    
+    }
+    .logo1, .logo2, .logo3, .logo4, .logo5{
+        font-size: 50px;
+        width: 25vw;
+        height:13vh ;
+        color: white;
+        text-justify:center;
+        outline-width: 8px;
+        outline-style: solid;
+        outline: 0.5rem inset purple;
+        outline-offset: 10px;
+        background-color: #4C4C4C;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo1>p, .logo2>p, .logo3>p, .logo4>p, .logo5>p{
+        letter-spacing: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    .fullstack, .aws, .data, .why{
+        background-color: #F1F1F1;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        line-height: 1.8rem;
+        border: 5px solid black;
+        height: 25vh;
+    }
+    .fullstack>p ,.awstext>p, .datatext>p, .whytext>p{
+        padding: 20px 10px 20px;
+    }
+    .fullstack>h1,.awstext>h1, .datatext>h1,.whytext>h1 {
+    padding-top: 20px;
+    }
+    .bg1, .bg2, .bg3, .bg4, .bg5{
+        background-image: url(./img/bg1.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100
+    }
+}
